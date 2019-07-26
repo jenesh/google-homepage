@@ -130,11 +130,9 @@ div.logo {
 }
 
 
-#drop-btn {
-  
-}
 
-.drop-content {
+
+/* .drop-content {
   display: none; 
   position: absolute;
   left: -80px;
@@ -149,7 +147,7 @@ div.logo {
   border: 1px solid rgba(0,0,0,.1);
   box-shadow: 1px 1px 5px 5px rgba(0,0,0,.2);
   border-radius: 10px;
-}
+} */
 
 .drop-content a {
   display: block;
@@ -166,5 +164,7 @@ div.logo {
   border-radius: 10px;
 }
 
-  
+.show {
+  display: flex;
+}  
 

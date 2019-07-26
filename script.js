@@ -11,12 +11,12 @@ drop_btn.addEventListener("click",
         }
     })
 
-if (mydropDown.style.display === "flex") {
-    document.addEventListener("click",
-        function () {
-            myDropdown.style.display = "none";
+// if (mydropDown.style.display === "flex") {
+//     document.addEventListener("click",
+//         function () {
+//             myDropdown.style.display = "none";
 
-        })
-}
+//         })
+// }
 
 

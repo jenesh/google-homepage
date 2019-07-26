@@ -1,67 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Google Homepage</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/c440029381.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Google Homepage</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  <body>
+    <div class="header">
+      <nav>
+        <ul class="top-left">
+          <li>
+            <a>About</a>
+          </li>
+          <li>
+            <a>Store</a>
+          </li>
+        </ul>
 
-<body>
+        <ul class="top-right">
+          <li>
+            <a>Gmail</a>
+          </li>
+          <li>
+            <a>Images</a>
+          </li>
 
+          <div class="dropdown">
+            <a href="#" id="drop-btn"><i class="fas fa-bars"></i></a>
 
-
-  <div class="top">
-    <nav>
-      <ul class="top-left">
-        <li>
-          <a>About</a>
-        </li>
-        <li>
-          <a>Store</a>
-        </li>
-      </ul>
-
-      <ul class="top-right">
-        <li>
-          <a>Gmail</a>
-        </li>
-        <li>
-          <a>Images</a>
-        </li>
-
-        <div class="dropdown">
-
-          <button id="drop-btn">Button</button>
-
-          <div id="myDropdown" class="drop-content">
-
-            <a href="#" class="logo"><i class="far fa-user-circle"></i>
-              <p>Account</p>
-            </a>
-            <a href="#" class="logo"> <i class="fas fa-map-marked-alt"></i>
-              <p>Map</p>
-            </a>
-            <a href="#" class="logo"><i class="fas fa-shopping-cart"></i>
-              <p>Shopping</p>
-            </a>
-            <a href="#" class="logo"> <i class="fas fa-language"></i>
-              <p>Translate</p>
-            </a>
-
+            <div id="myDropdown" class="drop-content">
+              <a href="#" class="logo"
+                ><i class="far fa-user-circle"></i>
+                <p>Account</p>
+              </a>
+              <a href="#" class="logo">
+                <i class="fas fa-map-marked-alt"></i>
+                <p>Map</p>
+              </a>
+              <a href="#" class="logo"
+                ><i class="fas fa-shopping-cart"></i>
+                <p>Shopping</p>
+              </a>
+              <a href="#" class="logo">
+                <i class="fas fa-language"></i>
+                <p>Translate</p>
+              </a>
+            </div>
           </div>
 
-        </div>
-
-        <li>
-          <a class="sign-in">Sign In</a>
-        </li>
-      </ul>
-    </nav>
-
+          <li>
+            <a class="sign-in">Sign In</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- MIDDLE -->
     <div class="container">
       <div class="logo">
         <div class="blue">G</div>
@@ -73,7 +78,7 @@
       </div>
 
       <form>
-        <input type="text">
+        <input type="text" />
       </form>
 
       <div class="buttons">
@@ -85,37 +90,35 @@
         </button>
       </div>
     </div>
-  </div>
-  <div class="bottom">
-    <footer>
-      <div>
-        <ul>
-          <li>
-            Advertising
-          </li>
-          <li>
-            Business
-          </li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li>
-            Privacy
-          </li>
-          <li>
-            Terms
-          </li>
-          <li>
-            Settings
-          </li>
-        </ul>
-      </div>
-    </footer>
-  </div>
+    <!-- FOOTER -->
+    <div class="bottom">
+      <footer>
+        <div>
+          <ul>
+            <li>
+              Advertising
+            </li>
+            <li>
+              Business
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Privacy
+            </li>
+            <li>
+              Terms
+            </li>
+            <li>
+              Settings
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
 
-  <script src="script.js"></script>
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
